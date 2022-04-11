@@ -12,40 +12,10 @@ import Picture from './Picture';
 function HeroSection() {
   // const history = useHistory();
   return (
-    <div className='hero-container'>
-   
-         <Picture/>
+    <>
+     <Picture/>
+    </>
 
-      {/* <video src='/videos/video-1.mp4' autoPlay loop muted /> */}
-      
-      {/* <h1>Software/Web Developer</h1> */}
-    
-
-      {/* <p>Learn More About My Expertise</p> */}
-      <div className='hero-btns'>
-        
-        {/* <Button
-          className='btns'
-          buttonSize='btn--large'
-          component={<Link to = '/skills'>Skills</Link>}
-
-        /> */}
-        
-         
-        
-        {/* <Button
-          className='btns'
-          buttonStyle='btn--primary'
-          buttonSize='btn--large'
-         
-          
-          // onClick={console.log('hey')}
-          // component={<Link style={{ color: '#fff',textDecoration: 'none' }} to = '/projects' >Learn More <i className='far fa-play-circle' /></Link>}
-        />
-           */}
-       
-      </div>
-    </div>
   );
 }
 

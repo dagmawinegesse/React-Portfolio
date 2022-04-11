@@ -32,10 +32,10 @@ function Cards() {
           </ul>
           <ul>
             <br></br>
-            <h1>Skill Set</h1>
+            <h1 id = "skill-setH1">Skill Set</h1>
           </ul>
 
-          <ul className="cards__items">
+          <ul id="skillSetTable"className="cards__items">
             <Card style={{ width: "22rem" }}>
               <Card.Body>
                 <Card.Title style={{ color: "green" }}>Java</Card.Title>
@@ -76,7 +76,7 @@ function Cards() {
               </Card.Body>
             </Card>
           </ul>
-          <ul className="cards__items">
+          <ul id="skillSetTable" className="cards__items">
             <Card style={{ width: "22rem" }}>
               <Card.Body>
                 <Card.Title style={{ color: "green" }}>HTML/CSS</Card.Title>

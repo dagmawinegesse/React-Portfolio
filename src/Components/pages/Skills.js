@@ -6,7 +6,7 @@ import './Skills.css';
 export default function Skills (){
     return (
         <div className='cards'>
-      <h1>Skills </h1>
+      {/* <h1>Skildls </h1> */}
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>

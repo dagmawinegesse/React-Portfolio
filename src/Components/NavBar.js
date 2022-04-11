@@ -55,7 +55,7 @@ function NavBar() {
                    <i className={click ? 'fas fa-times': 'fas fa-bars'}></i>
                    </div>
                    
-                   <ul className= {click ?'nav-menu active': 'nav-menu'}>
+                   <ul id="navItem"className= {click ?'nav-menu active': 'nav-menu'}>
 
                    <li className='nav-item'>
                       
@@ -75,14 +75,14 @@ function NavBar() {
 
 
                    </ul>
-                   {buttonC && <Button classname = "button-nav"buttonStyle={'btn--outline'} >
+                   {/* {buttonC && <Button classname = "button-nav"buttonStyle={'btn--outline'} >
                      Resume
                    <i class="fas fa-download"></i>
-                   </Button>}
+                   </Button>} */}
                  <div>
-                   {/* {buttonC && 
-                    <Button className = 'btn--outline'>Resume</Button>
-                   } */}
+                   {buttonC && 
+                    <Button id="navItem"className = 'btn--outline'>Resume</Button>
+                   }
                  </div>
                    
 

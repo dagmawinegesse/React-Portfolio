@@ -112,7 +112,30 @@
 
   }
 
- 
+  @media only screen and (max-width: 600px) {
+    .cards__container {
+      /* display: flex; */
+      flex-flow: column;
+      align-items: center;
+      max-width: 1120px;
+      width: 90%;
+      margin: 0 auto;
+      
+    }
+    .cards__items{
+      font-size: 2px;
+    }
+    .cards__wrapper {
+      position: relative;
+      margin: 50px 0 45px;
+      
+    }
+    .cards__item__text {
+      color: #252e48;
+      font-size: 18px;
+      line-height: 24px;
+    }
+  }
   @media only screen and (min-width: 1200px) {
     .content__blog__container {
       width: 84%;
@@ -129,4 +152,14 @@
     .cards__item {
       margin-bottom: 2rem;
     }
+  }
+
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    /* .cards__items{
+      margin-left: 5rem;
+    } */
+    #skillSetTable{
+      margin-left: 3rem;
+    }
+
   }

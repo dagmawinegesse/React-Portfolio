@@ -157,7 +157,16 @@
     color: #fff;
     margin-bottom: 16px;
   }
-  
+  @media only screen and (max-width: 600px) {
+    .footer-logo{
+      display:inline-block;
+      padding:0px;
+      margin-left:-4px;
+    }
+    .social-media{
+      margin-left: 4rem;
+    }
+  }
   @media screen and (max-width: 820px) {
     .footer-links {
       padding-top: 2rem;
@@ -179,8 +188,15 @@
       flex-direction: column;
     }
   }
-  
+
+
   @media screen and (max-width: 768px) {
   }
 
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+
+    .social-media{
+      margin-left: 8rem;
+    }
+  }
   

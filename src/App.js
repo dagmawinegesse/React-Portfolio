@@ -16,14 +16,13 @@ function App() {
       <ScrollToTop>
         {/* put anything that should be displayed to all pages */}
         <GithubCards />
-        <NavBar />
+        {/* <NavBar/> */}
 
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route exact path="/projects" element={<Projects />} />
           <Route exact path="/skills" element={<Skills />} />
           <Route exact path="/Education" element={<Education />} />
-          {/* <Route exact path = '/leetCodeSolutions' href = 'https://github.com/dagmawinegesse/LeetCodeAlgorithmSolutions'/> */}
         </Routes>
         <Footer />
       </ScrollToTop>

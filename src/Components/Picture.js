@@ -1,5 +1,7 @@
 import React, { useRef } from "react";
 import "./pics.css";
+import { Link } from "react-router-dom";
+// import Button from 'react-bootstrap/Button'
 import Cards, { Button, Card } from "react-bootstrap";
 import CardItem from "./CardItem";
 import { scroller } from "react-scroll";
@@ -11,79 +13,45 @@ export default function Picture() {
   const executeScroll = () => scrollToRef(myRef);
 
   return (
-    <>
+   
       <div className="picsHolder">
-        <div id="disc">
-          <h1 id="title" className="animate__animated animate__rotateIn">
-            Software/Web Developer
+        <div className="infoHolder">
+          <h1 id="title" >
+            Hey, my name is <span className="name">Dagmawi</span>
           </h1>
-
-          <div id="slider">
-            <input type="radio" name="slider" id="slide1" checked />
-            <input type="radio" name="slider" id="slide2" />
-            <input type="radio" name="slider" id="slide3" />
-            <input type="radio" name="slider" id="slide4" />
-
-            <div id="slides">
-              <div id="overflow">
-                <div className="inner">
-                  <div className="slide slide_1">
-                    <div className="slide-content">
-                      <h2 className="animate animate__lightSpeedInRight">
-                        Welcome
-                      </h2>
-
-                      <p
-                        id="par"
-                        class="animate__animated animate__lightSpeedInRight"
-                      >
-                        Passionate to transfer my education and{" "}
-                      </p>
-
-                      <p>expierence to the work force.</p>
-                    </div>
-                  </div>
-                  <div className="slide slide_2">
-                    <div className="slide-content">
-                      <h2>Slide 2</h2>
-                      <p>Content slide 2</p>
-                    </div>
-                  </div>
-                  <div className="slide slide_3">
-                    <div className="slide-content">
-                      <h2>Slide 3</h2>
-                      <p>Content slide 3</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div id="controls">
-              <label for="slide1"></label>
-              <label for="slide2"></label>
-              <label for="slide3"></label>
-              <label for="slide4"></label>
-            </div>
-            <div id="bullets">
-              <label for="slide1"></label>
-              <label for="slide2"></label>
-            </div>
-          </div>
+          <h2 className="name">
+            Software Engineer, Web Development and soccer fan!
+          </h2>
+          
+          <h3 className="innerParag">
+            I completed my B.S in Computer Science in May 2020, and currently working on M.S in Technology Managment.
+          </h3>
+            <Button id="Button" className="btn-light">
+            <Link id="proj" to="/projects">
+              Projects
+            </Link>
+          </Button>
+          <Button id="Button" className="btn-success">
+            <Link
+              id="proj"
+              to="Resume.pdf"
+              download
+              target="_blank"
+              // className="nav-links-mobile"
+            >
+              Download Resume/CV
+            </Link>
+          </Button>
+          <p  id ="innerPara"className="animate__animated animate__tada">
+            <i class="fas fa-arrow-down fa-10x"></i> Scroll and{" "}
+            <span className="name">Explore More</span>
+          </p>
         </div>
 
         <div id="picEdit">
-          <ul className="image">
-            <img src="images/IMG_2207.jpeg" />
-          </ul>
+          <img src="images/IMG_2207.jpeg" />
         </div>
       </div>
-    </>
-
-    // <div className="picHolder">
-    //   <div className="image">
-
-    //   </div>
-    //   <div className="discr">{/* <h1>Software/Web Deverloper</h1> */}</div>
-    // </div>
+ 
   );
 }
