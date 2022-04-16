@@ -26,22 +26,25 @@ export default function Picture() {
           <h3 className="innerParag">
             I completed my B.S in Computer Science in May 2020, and currently working on M.S in Technology Managment.
           </h3>
-            <Button id="Button" className="btn-light">
-            <Link id="proj" to="/projects">
-              Projects
-            </Link>
+          <Link id="proj" to="/projects">
+          <Button id="Button" className="btn-light">
+          Projects
           </Button>
-          <Button id="Button" className="btn-success">
-            <Link
-              id="proj"
-              to="Resume.pdf"
-              download
-              target="_blank"
-              // className="nav-links-mobile"
-            >
-              Download Resume/CV
-            </Link>
+
+          </Link>
+          
+          <Link 
+          id="proj"
+          to="Resume.pdf"
+          download
+          target="_blank">
+
+          <Button id="Button" className="btn-info">
+          Download Resume/CV
           </Button>
+
+          </Link>
+
           <p  id ="innerPara"className="animate__animated animate__tada">
             <i class="fas fa-arrow-down fa-10x"></i> Scroll and{" "}
             <span className="name">Explore More</span>
