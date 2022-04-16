@@ -2,7 +2,7 @@ import React from 'react';
 import './Cards.css'
 import '../App.css'
 import CardItem from './CardItem';
-import Card from "react-bootstrap/Card";
+// import Card from "react-bootstrap/Card";
 
 function CardsProjects() {
   return (

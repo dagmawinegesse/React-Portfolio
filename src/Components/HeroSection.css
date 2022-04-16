@@ -1,11 +1,11 @@
 video {
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    z-index: -1;
-  }
-  /* .image >img{
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -1;
+}
+/* .image >img{
     object-fit: cover;
     width: 100%;
     height: 100%;
@@ -14,82 +14,76 @@ video {
    border-radius: 50%;
    size: 2rem;
   } */
-  
-  .hero-container {
-    
-    /* background: url('../../public/images/img-home.jpg') center center/cover no-repeat; */
-    /* background: url('/video/video-1.mp4') center center/cover no-repeat; */
-    height: 100vh;
-    width: 100%;
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* flex-direction: column; */
-    /* justify-content: center; */
-    align-items: center;
-    box-shadow: inset 0 0 0 1000px rgba(2, 19, 34, 0.514);
-    /* object-fit: contain; */
-    /* padding-top: 10px;
-    padding-left: 5%;
-    padding-right: 15%; */
-    background: linear-gradient(90deg, rgb(233, 217, 175) 0%, rgb(105, 93, 76) 100%);
 
-  }
+.hero-container {
+  height: 100vh;
+  width: 100%;
+
+  align-items: center;
+  box-shadow: inset 0 0 0 1000px rgba(2, 19, 34, 0.514);
+
+  background: linear-gradient(
+    90deg,
+    rgb(233, 217, 175) 0%,
+    rgb(105, 93, 76) 100%
+  );
+}
+.hero-container > h1 {
+  color: #fff;
+  font-size: 100px;
+  margin-top: -100px;
+}
+
+.hero-container > p {
+  margin-top: 8px;
+  color: #fff;
+  font-size: 32px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.hero-btns {
+  margin-top: 32px;
+}
+
+.hero-btns .btn {
+  margin: 6px;
+}
+
+.fa-play-circle {
+  margin-left: 4px;
+}
+
+@media screen and (max-width: 960px) {
   .hero-container > h1 {
-    color: #fff;
-    font-size: 100px;
+    font-size: 70px;
+    margin-top: -150px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero-container > h1 {
+    font-size: 40px;
     margin-top: -100px;
   }
-  
+
   .hero-container > p {
-    margin-top: 8px;
-    color: #fff;
-    font-size: 32px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-      'Lucida Sans', Arial, sans-serif;
-  }
-  
-  .hero-btns {
-    margin-top: 32px;
-  }
-  
-  .hero-btns .btn {
-    margin: 6px;
-  }
-  
-  .fa-play-circle {
-    margin-left: 4px;
-  }
-  
-  @media screen and (max-width: 960px) {
-    .hero-container > h1 {
-      font-size: 70px;
-      margin-top: -150px;
-    }
-  }
-  
-  @media screen and (max-width: 768px) {
-    .hero-container > h1 {
-      font-size: 40px;
-      margin-top: -100px;
-    }
-  
-    .hero-container > p {
-      font-size: 30px;
-    }
-  
-    .btn-mobile {
-      display: block;
-      text-decoration: none;
-    }
-  
-    .btn {
-      width: 100%;
-    }
-  }
-  .link:hover{
-    color: #242424;
+    font-size: 30px;
   }
 
-  .img{
-    border-radius: 50%;
+  .btn-mobile {
+    display: block;
+    text-decoration: none;
   }
+
+  .btn {
+    width: 100%;
+  }
+}
+.link:hover {
+  color: #242424;
+}
+
+.img {
+  border-radius: 50%;
+}

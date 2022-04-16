@@ -2,7 +2,6 @@ import React from "react";
 import "./Cards.css";
 import CardItem from "./CardItem";
 import Card from "react-bootstrap/Card";
-import Picture from "./Picture";
 import 'animate.css'
 function Cards() {
   return (
@@ -124,7 +123,7 @@ function Cards() {
 
         <div class="list-group">
           <h1>Work Expierence</h1>
-          <a class="list-group-item  flex-column align-items-start  ">
+          <a class="list-group-item  flex-column align-items-start">
             <div class="d-flex w-100 justify-content-between">
               <h5 class="mb-1">Graduate Research Assistance</h5>
               <small className="text-muted">2 years expierence</small>

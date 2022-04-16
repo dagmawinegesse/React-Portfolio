@@ -1,10 +1,8 @@
 .cards {
   padding: 4rem;
-  /* background: #fff; */
-  /* background: linear-gradient(90deg, rgb(116, 110, 110) 0%, rgb(199, 191, 154) 100%); */
-  background: linear-gradient(90deg, rgb(100, 100, 128) 0%, rgb(165, 156, 177) 100%);
-  /* height: 100vh; */
-  /* margin-top: 90px; */
+
+  background: linear-gradient(90deg, rgb(191, 222, 230) 0%, rgb(186, 181, 192) 100%);
+
 }
 
 /* h1 {
@@ -198,9 +196,7 @@
     right: 0;
     bottom: 0;
     left: 0;
-    /* margin-left:2.5rem; */
     display: block;
-    /* border-radius: 10%; */
     width: 100%;
     max-width: 100%;
     height: 100%;
@@ -231,7 +227,7 @@
   }
 }
 .e-card-image {
-  background: url('');
+  /* background: url(''); */
   height: 160px;
   ;
 }
@@ -258,7 +254,6 @@
   justify-content: space-between;  /* align-items: center; */
   padding-left: 2rem;
   padding-right: 2rem;
-  /* align-items: flex-start; */
   justify-content: center;
   margin-left: 2rem;
 
