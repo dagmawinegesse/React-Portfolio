@@ -3,7 +3,8 @@
   /* background: #fff; */
   /* background: linear-gradient(90deg, rgb(116, 110, 110) 0%, rgb(199, 191, 154) 100%); */
   background: linear-gradient(90deg, rgb(100, 100, 128) 0%, rgb(165, 156, 177) 100%);
-
+  /* height: 100vh; */
+  /* margin-top: 90px; */
 }
 
 /* h1 {
@@ -111,6 +112,23 @@
   color: #252e48;
   font-size: 18px;
   line-height: 24px;
+}
+#btn{
+  background-color: #405fa7;
+  text-decoration: none;
+  border: 0px;  
+  margin: 1rem;
+  position: static;
+
+  
+}
+
+#link{
+  text-decoration: none;
+  color: #090c13;
+}
+#link:hover{
+ 
 }
 
 @media only screen and (max-width: 600px) {

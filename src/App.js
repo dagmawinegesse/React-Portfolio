@@ -10,19 +10,21 @@ import Education from "./Components/pages/Education";
 import GithubCards from "./Components/GithubCards";
 import ScrollToTop from "./ScrollToTop";
 
+
 function App() {
   return (
     <Router>
       <ScrollToTop>
+
         {/* put anything that should be displayed to all pages */}
         <GithubCards />
         {/* <NavBar/> */}
 
         <Routes>
-          <Route exact path="/" element={<Home />} />
-          <Route exact path="/projects" element={<Projects />} />
-          <Route exact path="/skills" element={<Skills />} />
-          <Route exact path="/Education" element={<Education />} />
+          <Route  path="/" element={<Home />} />
+          <Route  path="/projects" element={<Projects />} />
+          {/* <Route  path="/skills" element={<Skills />} /> */}
+          <Route  path="/Education" element={<Education />} />
         </Routes>
         <Footer />
       </ScrollToTop>

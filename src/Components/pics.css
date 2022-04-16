@@ -57,9 +57,12 @@ body {
 #innerPara {
   margin-top: 10rem;
 }
+#Button{
+  margin: 0.5rem;
+}
 #proj{
   color: rgb(17, 15, 15);
-  margin: 2rem;
+  /* margin: 2rem; */
 }
 #proj:hover{
   color: rgb(17, 15, 15);

@@ -3,13 +3,19 @@ import "../../App.css";
 import CardItem from "../CardItem";
 // import "./Skills.css";
 import Card from "react-bootstrap/Card";
+import Button from "react-bootstrap/Button";
+import { Link } from "react-router-dom";
+import NavBar from "../NavBar";
 
 export default function Education() {
   return (
     <>
+      <NavBar/>
+
       <div className="cards">
         <div className="cards__container">
           <div className="cards__wrapper">
+
             <ul className="cards__items">
               <CardItem
                 src="ResumePics/masters.jpeg"
@@ -159,7 +165,6 @@ export default function Education() {
               </Card.Subtitle>
             </Card.Body>
           </Card>
-          
         </ul>
       </div>
     </>

@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import {Link} from 'react-router-dom'; 
-import { Button } from './Button';
+// import { Button } from './Button';
 import './NavBar.css';
 import useScroll from './useScroll'; 
 
@@ -43,56 +43,45 @@ function NavBar() {
  
   return (
     // style={scrollDirection === "down" ? styles.active: styles.hidden}
-    <nav className='navbar' >
-        <div className='navbar-container'>
-          {/* add the closemobilMenu when clicked so that the menu will be closed */}
-            <Link to = "/" className= 'navbar-logo' onClick={closeMobileMenu}>
-                   Dagmawi Negesse <i className='fab fa-typo3'></i>
-                 </Link>
+    <nav className='navbar'>
+    <div className='navbar-container'>
+      <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
+        Dagmawi Negesse
+        <i class='fab fa-typo3' />
+      </Link>
+      <div className='menu-icon' onClick={handleClick}>
+        <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
+      </div>
+      <ul className={click ? 'nav-menu active' : 'nav-menu'}>
+        <li className='nav-item'>
+          <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+            Home
+          </Link>
+        </li>
+        <li className='nav-item'>
+          <Link
+            to='/Education'
+            className='nav-links'
+            onClick={closeMobileMenu}
+          >
+            Education
+          </Link>
+        </li>
+        <li className='nav-item'>
+          <Link
+            to='/projects'
+            className='nav-links'
+            onClick={closeMobileMenu}
+          >
+            Projects
+          </Link>
+        </li>
 
-                 <div className='menu-icon' onClick={handleClick}>
-                  {/** this when clicked change states */}
-                   <i className={click ? 'fas fa-times': 'fas fa-bars'}></i>
-                   </div>
-                   
-                   <ul id="navItem"className= {click ?'nav-menu active': 'nav-menu'}>
 
-                   <li className='nav-item'>
-                      
-                      <Link id= "proj"to = '/projects'   className='nav-links' >
-                        Projects 
-                        
-                      </Link>
-                    </li>
+      </ul>
 
-                    <li className='nav-item '>
-                      
-                      <Link to = 'Resume.pdf' download target='_blank' className='nav-links-mobile' onClick={closeMobileMenu}>
-                        Resume <i class="fas fa-download"></i>
-                        
-                      </Link>
-                    </li>
-
-
-                   </ul>
-                   {/* {buttonC && <Button classname = "button-nav"buttonStyle={'btn--outline'} >
-                     Resume
-                   <i class="fas fa-download"></i>
-                   </Button>} */}
-                 <div>
-                   {buttonC && 
-                    <Button id="navItem"className = 'btn--outline'>Resume</Button>
-                   }
-                 </div>
-                   
-
-                   
-                 
-        </div>
-        
-     
-
-    </nav>
+    </div>
+  </nav>
   );
 
   

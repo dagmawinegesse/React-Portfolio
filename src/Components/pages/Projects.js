@@ -9,11 +9,16 @@ import Cards from "../Cards";
 import CardsProjects from "../CardsProjects";
 import GithubCards from "../GithubCards";
 import Button from "react-bootstrap/Button";
+import {Link} from 'react-router-dom'
 import 'animate.css';
+import { Navbar } from "react-bootstrap";
+
+import NavBar from "../NavBar";
 
 export default function Projects() {
   return (
     <>
+      <NavBar/>
       <div className="cards">
       <h1 class="animate__animated animate__flipInY">Projects</h1>
 
@@ -21,6 +26,7 @@ export default function Projects() {
         <div className="cards__container">
           <div className="cards__wrapper">
           <div className ="animate__animated animate__jackInTheBox">
+
 
             <ul className="cards__items">
               <Card style={{ width: "22rem" }}>
@@ -38,6 +44,7 @@ export default function Projects() {
                 </Card.Body>
 
               </Card>
+              
               <Card style={{ width: "22rem" }}>
                 <Card.Body>
                   <Card.Img src="ResumePics/react.png" />
@@ -68,6 +75,7 @@ export default function Projects() {
                
               </Card>
             </ul>
+            
 
             <ul className="cards__items">
               <Card style={{ width: "22rem" }}>
