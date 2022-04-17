@@ -37,7 +37,7 @@ export default function Footer() {
     <div className="footer-container">
       <section className="footer-subscription">
         <p className="footer-subscription-heading">
-          Looking for jobs for software/web developer position
+          Currently open for hire : Software & Web Developmenet roles!
         </p>
         <p className="footer-subscription-text">
           Contact me if you are interested with my work!

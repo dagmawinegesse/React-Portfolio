@@ -13,7 +13,7 @@ export default function Picture() {
           Hey, my name is <span>Dagmawi</span>
         </h1>
         <h2 className="name">
-          Software Engineer, Web Developer and Soccer fan!
+          Software Engineer and Web Developer
         </h2>
 
         <h3 className="innerParag">
