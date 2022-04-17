@@ -10,12 +10,11 @@ import NavBar from "../NavBar";
 export default function Education() {
   return (
     <>
-      <NavBar/>
+      <NavBar />
 
       <div className="cards">
         <div className="cards__container">
           <div className="cards__wrapper">
-
             <ul className="cards__items">
               <CardItem
                 src="ResumePics/masters.jpeg"
@@ -66,7 +65,7 @@ export default function Education() {
                 Discrete Mathematics
               </Card.Title>
               <Card.Subtitle className="mb-2 text-muted">
-                Concepts of integrs, graphs, and statements in logic.
+                Concepts of integers, graphs, and statements in logic.
               </Card.Subtitle>
             </Card.Body>
           </Card>
@@ -97,11 +96,11 @@ export default function Education() {
           <Card style={{ width: "22rem" }}>
             <Card.Body>
               <Card.Title style={{ color: "green" }}>
-                Applied Software Development
+                Advanced Switches and Routers
               </Card.Title>
               <Card.Subtitle className="mb-2 text-muted">
-                Concepts of abstraction, encapsulation, inheritance and much
-                more.
+                Concepts covered configuring switches and routers. In addition,
+                coursework covered the way network operates in different levels.
               </Card.Subtitle>
             </Card.Body>
           </Card>
@@ -114,8 +113,9 @@ export default function Education() {
                 Machine Learning
               </Card.Title>
               <Card.Subtitle className="mb-2 text-muted">
-                Concepts of abstraction, encapsulation, inheritance and much
-                more.
+                Machine Learning and its core models and algorithms. Hands-on R
+                programming experiences of using machine learning/deep learning
+                algorithms to analyze real-world data sets.
               </Card.Subtitle>
             </Card.Body>
           </Card>
@@ -125,19 +125,22 @@ export default function Education() {
                 Project Managemnt
               </Card.Title>
               <Card.Subtitle className="mb-2 text-muted">
-                Concepts of abstraction, encapsulation, inheritance and much
-                more.
+                Elements of managing projects including the use of modern
+                project management software.
               </Card.Subtitle>
             </Card.Body>
           </Card>
           <Card style={{ width: "22rem" }}>
             <Card.Body>
               <Card.Title style={{ color: "green" }}>
-                Operation Research
+                Industrial Operation Research
               </Card.Title>
               <Card.Subtitle className="mb-2 text-muted">
-                Concepts of abstraction, encapsulation, inheritance and much
-                more.
+                Concepts and applications of analytical models in
+                decision-making. Includes general concepts of models and
+                simulation, linear programming, transportation and assignment
+                problems, forecasting and network flow in determining optimal
+                industrial strategies.
               </Card.Subtitle>
             </Card.Body>
           </Card>
@@ -146,11 +149,12 @@ export default function Education() {
           <Card style={{ width: "22rem" }}>
             <Card.Body>
               <Card.Title style={{ color: "green" }}>
-                Malware Analysis & Forensics
+                Creative Problem Solving
               </Card.Title>
               <Card.Subtitle className="mb-2 text-muted">
-                Concepts of abstraction, encapsulation, inheritance and much
-                more.
+                A review and analysis of basic and applied research in the
+                development of creative behavior with emphasis on its
+                application to teaching/training and industrial problem solving.
               </Card.Subtitle>
             </Card.Body>
           </Card>
@@ -160,8 +164,9 @@ export default function Education() {
                 Advanced Server Security
               </Card.Title>
               <Card.Subtitle className="mb-2 text-muted">
-                Concepts of abstraction, encapsulation, inheritance and much
-                more.
+                Security management, planning, designing, performance tuning and
+                troubleshooting servers for small-to-medium businesses (SMBs)
+                and enterprises.
               </Card.Subtitle>
             </Card.Body>
           </Card>

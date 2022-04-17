@@ -29,6 +29,11 @@ body {
   float: left;
   font-size: 4vw;
 }
+.infoHolder >h1 >span{
+  color: aqua;
+  transform: rotateX(360deg);
+}
+
 .infoHolder > h2 {
   float: left;
   font-size: 2.5vw;
@@ -47,9 +52,13 @@ body {
 .innerParag {
   margin-top: 10rem;
   font-size: 1.5vw;
+  color: rgb(217, 220, 223);
+  /* color: rgb(160, 243, 243); */
+
 }
 #innerPara {
   margin-top: 6rem;
+
 }
 #Button {
   margin: 0.5rem;
@@ -135,8 +144,9 @@ body {
 
     align-content: center;
 
-    background: url("../../public/ResumePics/background2.jpg") no-repeat 100%
+    background: url("../../public/ResumePics/background.jpg") no-repeat 100%
       10%;
+     /* background-size: 20000px ; */
   }
 
   .infoHolder {
@@ -209,3 +219,17 @@ body {
     top: 90px;
   }
 }
+@media only screen 
+    and (min-width: 390px) 
+    and (max-height: 926px) 
+    and (-webkit-device-pixel-ratio: 3) { 
+
+
+      #innerPara {
+        /* display: none; */
+        position: relative;
+        top: 250px;
+      }
+
+
+    }

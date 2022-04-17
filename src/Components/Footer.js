@@ -3,9 +3,19 @@ import "./Footer.css";
 import emailjs from "emailjs-com";
 import Button from "react-bootstrap/Button";
 export default function Footer() {
-  function sendEmail(e) {
-    e.preventDefault();
 
+  function sendEmail(e) {
+    
+    e.preventDefault();
+    var a = document.forms['form']['name'].value
+    var b= document.forms['form']['subject'].value
+    var c = document.forms['form']['email'].value
+    var d = document.forms['form']['message'].value
+
+    if (a == "") {
+      alert("Missing some inputs");
+      
+    }
     emailjs
       .sendForm(
         "service_6cn0ffb",
@@ -33,24 +43,27 @@ export default function Footer() {
           Contact me if you are interested with my work!
         </p>
         <div className="input-areas">
-          <form onSubmit={sendEmail}>
+          <form className ="form"onSubmit={sendEmail}>
             <input
               className="form-control"
               name="name"
               type="text"
               placeholder="Name"
+              required
             />
             <input
               className="form-control"
               name="subject"
               type="text"
               placeholder="Subject:"
+              required
             />
             <input
               className="form-control"
               name="email"
               type="email"
               placeholder="Your Email"
+              required
             />
             <textarea
               className="form-control"
@@ -59,6 +72,7 @@ export default function Footer() {
               col="1"
               row="20"
               placeholder="Enter Message"
+              required
             />
             <Button
               id="button"

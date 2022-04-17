@@ -118,7 +118,9 @@
     color: #fff;
     font-size: 24px;
   }
-  
+  .social-media a:hover{
+    color: #b1b1b1;
+  }
   .social-media {
     max-width: 1000px;
     width: 100%;

@@ -50,3 +50,13 @@
     display: flex;
     justify-content: center;
   }
+
+  @media only screen and (max-width: 600px) {
+    .educationSection{
+      align-items: center;
+    }
+    .courseWork-items{
+      display: block;
+      justify-content: center;
+    }
+  }
