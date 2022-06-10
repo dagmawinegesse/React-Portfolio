@@ -4,7 +4,7 @@ import Skills from './Skills'
 function SkillSet() {
   return (
     <>
-    <Skills/>
+    {/* <Skills/> */}
     </>
   )
 }

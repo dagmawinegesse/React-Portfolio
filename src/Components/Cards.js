@@ -38,7 +38,7 @@ function Cards() {
             <Card style={{ width: "22rem" }}>
               <Card.Body>
                 <Card.Title style={{ color: "green" }}>Java</Card.Title>
-                <Card.Subtitle className="mb-2 text-muted">
+                <Card.Subtitle className="mb-2 text-muted"style={{fontFamily:"'Oswald', sans-serif"}}> 
                   Concepts of abstraction, encapsulation, inheritance and much
                   more.
                 </Card.Subtitle>
@@ -51,7 +51,7 @@ function Cards() {
             <Card style={{ width: "22rem" }}>
               <Card.Body>
                 <Card.Title style={{ color: "green" }}>React Js</Card.Title>
-                <Card.Subtitle className="mb-2 text-muted">
+                <Card.Subtitle className="mb-2 text-muted" style={{fontFamily:"'Oswald', sans-serif"}}>
                 React JS has been my go to option for creating most of my Web projects. The 
                 component based structure makes it easier to create multiple featues.
                 </Card.Subtitle>
@@ -64,7 +64,7 @@ function Cards() {
             <Card style={{ width: "22rem" }}>
               <Card.Body>
                 <Card.Title style={{ color: "green" }}>Pyhton </Card.Title>
-                <Card.Subtitle className="mb-2 text-muted">
+                <Card.Subtitle className="mb-2 text-muted" style={{fontFamily:"'Oswald', sans-serif"}}>
                   Used Python in some of my projects for easier redeability, better structure and
                   wide range of libraries.
                 </Card.Subtitle>
@@ -79,7 +79,8 @@ function Cards() {
             <Card style={{ width: "22rem" }}>
               <Card.Body>
                 <Card.Title style={{ color: "green" }}>HTML/CSS</Card.Title>
-                <Card.Subtitle className="mb-2 text-muted">
+                <Card.Subtitle className="mb-2 text-muted" style = {{fontFamily : "'Oswald', sans-serif"}}>
+                 
                   My programming journey started with HTML and CSS. Used both to create, design a structure websites
                   while also applying CSS animation.
                 
@@ -93,7 +94,7 @@ function Cards() {
             <Card style={{ width: "22rem" }}>
               <Card.Body>
                 <Card.Title style={{ color: "green" }}>Research</Card.Title>
-                <Card.Subtitle className="mb-2 text-muted">
+                <Card.Subtitle className="mb-2 text-muted" style={{fontFamily:"'Oswald', sans-serif"}}>
                  Through my vast expierence in education, I have worked on multiple research projects. 
                  My current role of Graduate Research Assistant helps me solidify this skill. 
                 </Card.Subtitle>
@@ -108,7 +109,7 @@ function Cards() {
                 <Card.Title style={{ color: "green" }}>
                   Communication
                 </Card.Title>
-                <Card.Subtitle className="mb-2 text-muted">
+                <Card.Subtitle className="mb-2 text-muted" style={{fontFamily:"'Oswald', sans-serif"}}>
                   Over the course of my work expierence, I have gained great deal of communications skill
                   through working with teams and providing customer service. 
                 </Card.Subtitle>

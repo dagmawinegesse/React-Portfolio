@@ -1,0 +1,60 @@
+@media only screen and (max-width: 400px) {
+    /* Styles */
+  
+    .infoHolder {
+      width: 80%;
+      position: relative;
+      top: 110px;
+      align-items: center;
+      margin: 8rem 2rem;
+      color: aliceblue;
+     
+    }
+    /* .infoHolder > h1 {
+      font-size: 10vw;
+      align-items: center;
+    }
+    .infoHolder > h2 {
+      font-size: 7vw;
+       margin: 2rem 2rem;
+    } */
+    #innerPara {
+      position: relative;
+      top: 100px;
+      font-size: x-small;
+    }
+  }
+
+
+
+@media only screen and (min-width: 390px) and (max-width: 600px) {
+    /* Styles */
+  
+    
+    #innerPara {
+      position: relative;
+      top: 200px;
+      font-size: x-small;
+    }
+  }
+  @media only screen and (min-width: 1000px) {
+    #innerPara {
+      position: relative;
+      top: -20px;
+    }
+  }
+  @media only screen 
+      and (min-width: 390px) 
+      and (max-height: 926px) 
+      and (-webkit-device-pixel-ratio: 3) { 
+  
+  
+        #innerPara {
+          /* display: none; */
+          position: relative;
+          top: 250px;
+        }
+  
+  
+      }
+       

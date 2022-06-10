@@ -7,15 +7,7 @@ export default function Footer() {
   function sendEmail(e) {
     
     e.preventDefault();
-    var a = document.forms['form']['name'].value
-    var b= document.forms['form']['subject'].value
-    var c = document.forms['form']['email'].value
-    var d = document.forms['form']['message'].value
-
-    if (a == "") {
-      alert("Missing some inputs");
-      
-    }
+ 
     emailjs
       .sendForm(
         "service_6cn0ffb",
@@ -31,7 +23,9 @@ export default function Footer() {
           console.log(error.text);
         }
       );
+      alert("Message sent successfully");
     e.target.reset();
+
   }
   return (
     <div className="footer-container">

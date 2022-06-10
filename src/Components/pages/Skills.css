@@ -4,6 +4,10 @@
   background: linear-gradient(90deg, rgb(191, 222, 230) 0%, rgb(186, 181, 192) 100%);
 
 }
+.cards >h1{
+  font-family: 'Caveat', cursive;
+  font-size: 4vw;
+}
 
 /* h1 {
   padding-top: 0rem;
@@ -125,9 +129,19 @@
   text-decoration: none;
   color: #090c13;
 }
+.cards__item__text{
+  font-family: 'Oswald', sans-serif;
+
+}
+#skill-setH1{
+  /* margin-right: 2rem; */
+  font-family: 'Caveat', cursive;
+  font-size: 10vw;
+}
 #link:hover{
  
 }
+
 
 @media only screen and (max-width: 600px) {
   .cards__container {
@@ -139,6 +153,9 @@
     margin: 0 auto;
     
     
+  }
+  .cards >h1{
+    font-size: 10vw;
   }
   .cards__item__img {
     position: absolute;
@@ -173,6 +190,8 @@
   }
   #skill-setH1{
     margin-right: 2rem;
+    font-family: 'Caveat', cursive;
+  font-size: 10vw;
   }
 }
 @media only screen and (min-width: 480px) and (max-width: 1023px) {
@@ -215,6 +234,8 @@
   }
   #skill-setH1{
     margin-right: 2rem;
+    font-family: 'Caveat', cursive;
+    /* font-size: 10vw; */
   }
 }
 @media only screen and (min-width: 1200px) {
