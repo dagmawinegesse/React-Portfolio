@@ -48,6 +48,7 @@ export default function Picture() {
       </div>
       <div className="part4">
         <h3 className="animate__backInLeft">
+          Thank you and 
                Swipe down to learn more!
         </h3>
       </div>
